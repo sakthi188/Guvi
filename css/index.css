@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 80vh;
+    background:linear-gradient(90deg,rgba(2,0,36,1)0%,rgba(75,14,154,1) 35%,rgba(0,212,255,1)100%);
+    flex-direction: column;
+    margin: 0;
+}
+.submit-btn {
+    color: #F5F5F5;
+    padding: 10px 45px;
+    background-color: rgba(56, 30, 86, 0.7);
+    margin-top: 30px;
+    margin-top: 20px;
+    margin-left:140px;
+}
+
+.submit-btn:hover {
+    padding: 10px 55px;
+    color: var(--text-variant);
+    background-color: rgba(56, 30, 86, 0.9);
+}
